@@ -1,0 +1,10 @@
+.button {
+    width: 8rem;
+    height: 2rem;
+    background-color: lightblue;
+    border-radius: 0.3rem;
+    align-items: center;
+}
+.btn_container{
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(221, 221, 221);
+}
+
+.background_box {
+    background-color: white;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.tempTitle {
+    font-size: 2.5rem;
+    font-weight: bold; 
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color: rgb(50, 46, 255);
+    padding-top: 2rem;
+}
+
+.unitChoice {
+    font-weight: bold; 
+    margin-left: auto; 
+    font-size: 1.5rem; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tempInput {
+    width: 16rem;
+    height: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.submitBtn {
+    height: 3rem;
+    width: 6rem;
+    border-radius: .5rem;
+    border-width: 0;
+    background-color: red;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.submitBtn:hover{
+    color: white;
+    cursor: pointer;
+}

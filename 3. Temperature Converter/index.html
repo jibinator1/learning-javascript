@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    
+    <div class = 'background_box'>
+
+        <p class = tempTitle>Temperature Conversion:</p>
+        <input class = tempInput id = tempInput>
+
+        <input type = "radio" id = 'toFarenheiht' style="margin-top:2rem ;" name = "unit">
+        <label for = 'toFarenheit' class = unitChoice>Celsius → Farenheit</label><br>
+
+        <input type = "radio" id = 'toCelsius' name = "unit">
+        <label for = 'toCelsius' class = unitChoice>Farenheit → Celsius</label><br>
+        <button onclick="convert()" class = submitBtn>Submit</button>
+
+        <p id = 'converted' style="font-size: 2rem; font-weight: bold;font-family: Arial, Helvetica, sans-serif; margin-top: 2.8rem;">Select a unit</p>
+
+    </div>
+
+
+    <script src = "index.js"></script>
+</body>
+</html>

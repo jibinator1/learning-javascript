@@ -1,0 +1,52 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    height: 4rem;
+    width: 8rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    border-width: 0;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: monospace;
+}
+#startButton {
+    background-color: rgb(69, 143, 69);
+}
+
+#startButton:hover {
+    cursor: pointer;
+    color: white;
+}
+
+
+#stopButton {
+    background-color: rgb(168, 87, 87);
+}
+#stopButton:hover {
+    cursor: pointer;
+    color: white;
+}
+
+
+#resetButton {
+    background-color: rgb(50, 171, 207);
+}
+#resetButton:hover {
+    cursor: pointer;
+    color: white;
+}
+
+#stopwatch {
+    text-align: center;
+    font-size: 10em;
+    font-family: monospace;
+    margin-top: 4vh;
+}
+
